@@ -16,7 +16,7 @@ io.on('connection', function(socket){
   });
 });
 
-var port = parseInt(proces.env.PORT || "3000");
+var port = parseInt(process.env.PORT || "3000");
 http.listen(port, function(){
   console.log('listening on *:3000');
 });
